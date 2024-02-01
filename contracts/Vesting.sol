@@ -2,9 +2,6 @@
 pragma solidity ^0.8.9;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-// Deployed at 0x3e9C748E9DBB864Ee4dE65FA16343Cde878DF7D0
-// Deployed second full fledged at 0x5f17b59FCDb08Bc562368031E4414F66769e6152
-// Deployed third full fledged at 0x828e4ED5a77aDED293E77C9D3e9CFb815B49a006
 
 contract OrganisationToken is ERC20 {
     mapping(address => bool) private minters;
